@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  text-align: center;
+}
+
+#container {
+  height: 100px;
+  width: 100%;
+}
+
+table {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+table tr {
+  height: 50px;
+}
+table thead {
+  background-color: grey;
+}
+table tbody tr {
+  border-bottom: 1px solid #ccc;
+}
+button.item-paid--btn{
+  background-color: #000000;
+  border: none;
+  border-radius: 15px;
+  color: white;
+  cursor: pointer;
+  width: 62px;
+  height: 27px;
+}
+button.item-paid--btn:hover{
+  transition: 0.25s all ease;
+  background-color: #0000003f;
+  color: #000000;
+
+}

@@ -1,0 +1,139 @@
+.container {
+  height: auto;
+  width: 100%;
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  color: #10182f;
+  overflow: hidden;
+  margin: 30px 0;
+  flex-wrap: wrap
+}
+span.tag.tag-teal {
+  margin-bottom: 20px;
+}
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 318px;
+    transition: transform 0.25s;
+    border: 1px solid rgb(0 0 0 / 16%);
+    margin: 20px 9px;
+    min-height: 690px;
+}
+.card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+}
+.btn-action {
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-header{
+    width: 100%;
+    min-height: 356px;
+    max-height: 356px;
+}
+.card-header img {
+    width: 100%;
+    object-fit: cover;
+    min-height: 356px;
+    max-height: 356px;
+}
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    min-height: 210px;
+}
+.product-address {
+  color: grey;
+  font-style: italic;
+}
+.product-address--content {
+  color: #ec0000;
+}
+.card-body p {
+  font-size: 13px;
+  margin: 0 0 40px;
+}
+
+h4.product-name {
+    font-size: 23px;
+    font-family: system-ui;
+    padding: 0 0 0 14px;
+    text-transform: capitalize;
+    font-weight: 500;
+    margin: 0;
+    color: black;
+    font-style: oblique;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.card-body p {
+  font-size: 11px;
+  margin: 5px 0 5px;
+}
+p.product-price {
+    font-size: 14px;
+    color: #215614;
+    font-family: fantasy;
+    padding: 0;
+}
+p.product-price:hover {
+  transition: 0.25s all ease;
+  color: #fc0e06;
+}
+span.tag.tag-teal {
+  margin-bottom: 10px;
+}
+h5.user-address {
+  font-size: 9px;
+}
+
+.list-item__title{
+  color: rgb(133 121 121);
+  font-size: 20px;
+  padding: 1rem 8rem;
+  font-weight: 100;
+  font-style: italic;
+  font-family: fantasy;
+  margin: 8px 0 0 84px;
+  background-color: rgb(229 228 228 / 18%);
+  margin: 0;
+}
+
+.product__address{
+  padding-top: 10px;
+  font-size: 12px;
+  color: #035621;
+}
+.product-prices{
+  border-radius: 20px;
+  width: 90%;
+  height: 35px;
+  background: black;
+  font-size: 20px !important;
+  text-align: center;
+  font-family: system-ui;
+  font-weight: 500;
+  margin: 0 0 0 13px !important;
+}
+.product-prices:hover{
+  transition: 0.25s all ease;
+  background-color: rgba(0, 0, 0, 0.199);
+  color: #000;
+}
+.product-address--content{
+  font-size: 17px !important;
+  font-family: cursive;
+  text-transform: capitalize;
+  color: #035621;
+}
+.btn-action-create{
+  padding: 13px 0;
+}

@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+
+.Sales{
+    max-width: 600px;
+    width: 100%;
+    background: #fff;
+    margin: 20px auto;
+    box-shadow: 1px 0px 0px 2px rgb(7 18 2 / 12%);
+    padding: 30px;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+.Sales .title{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 25px;
+    color: #000000;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: fantasy;
+}
+.view__collection{
+  width: 82px;
+  height: 32px;
+  background: black;
+  padding: 7px 23px;
+  border-radius: 20px;
+  margin: 0 0px 0 214px;
+}
+.button{
+  color: #fff;
+}
+.button:hover{
+  color: rgb(8, 8, 8);
+}
+.view__collection:hover{
+  background-color: #00000000;
+  transition: 0.25s all ease;
+
+}
+.sale__item{
+  width: 100%;
+  margin: 50px 20px;
+  display: flex;
+  overflow: hidden;
+}
+
+.sale__item-collection{
+  display: flex;
+  
+}
+.fix__resize--product{
+  width: 100%;
+  height: 100%;
+}
+.sale__card{
+  width: 318px;
+  margin: 0 20px;
+  box-shadow: 1px 0px 0px 2px rgb(7 18 2 / 12%);
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.25s;
+  border: 1px solid rgb(0 0 0 / 16%);
+
+}
+.sale__card:hover{
+  transform: scale(1.02);
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+}
+.card__fix_img{
+  width: 100%;
+}
+.sale__card-content{
+  padding: 10px 10px;
+}
+.sale__content-title{
+  font-size: 20px;
+  font-weight: 500;
+  text-overflow: revert;
+  overflow: hidden;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: block;
+  font-family: cursive;
+}
+.sale__content-des{
+  font-style: italic;
+  font-size: 14px;
+  line-height: 21px;
+  font-family: monospace;
+}
+.sale__btn{
+    margin: 30px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow: hidden;
+}
+.content__buyer{
+  width: 70px;
+  height: 30px;
+  border: none;
+  border-radius: 15px;
+  background: black;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+.btn_buyer{
+  color: white;
+}
+.content__buyer:hover{
+  transition: 0.25s all ease;
+  background: rgba(7, 7, 7, 0.267);
+}
+.btn_buyer:hover{
+  color: #000000;
+}
+.content__price{
+  font-size: 15px;
+  color: #000000;
+  font-family: fantasy;
+  padding-left: 7px;
+}
+.content__price:hover{
+  color: rgb(236, 49, 2);
+}
+.content__price-old{
+    font-size: 15px;
+    color: #0000006b;
+    font-family: system-ui;
+    padding-left: 100px;
+    text-decoration: line-through;
+    font-weight: 600;
+}
+.content__price-old:hover{
+  color: rgb(236, 49, 2);
+}
+.sale__cards{
+  margin: 50px 0;
+  display: flex;
+}
+
+/* winter */
+.Sales__Winter{
+  max-width: 700px;
+  width: 100%;
+  background: #fff;
+  margin: 20px auto;
+  box-shadow: 1px 0px 0px 2px rgb(7 18 2 / 12%);
+  padding: 30px;
+  margin-top: 100px;
+  border-radius: 10px;
+}
+.Sales__Winter .title{
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 25px;
+  color: #000000;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: fantasy;
+}
+.view__collections{
+width: 82px;
+height: 32px;
+background: black;
+padding: 7px 23px;
+border-radius: 20px;
+margin: 0 0px 0 273px;
+}
+.view__collections:hover{
+  background-color: #00000041;
+  transition: 0.25s all ease;
+
+}
+
+/* we_more */
+.We__more{
+    max-width: 470px;
+    width: 100%;
+    background: #fff;
+    margin: 0 auto;
+    box-shadow: 1px 0px 0px 2px rgb(7 18 2 / 12%);
+    padding: 30px;
+    border-radius: 10px;
+}
+.We__more .title{
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 25px;
+  color: #000000;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: fantasy;
+}
+.view__collecting{
+width: 82px;
+height: 32px;
+background: black;
+padding: 7px 23px;
+border-radius: 20px;
+margin: 0 0px 0 159px;
+}
+.view__collecting:hover{
+  background-color: #00000041;
+  transition: 0.25s all ease;
+
+}
+
+/* We all */
+.We__All{
+  max-width: 1300px;
+  width: 100%;
+  background: #fff;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.We__All .title{
+  font-size: 28px;
+  font-weight: 100;
+  margin-bottom: 25px;
+  color: #000000;
+  text-transform: uppercase;
+  text-align: center;
+  font-style: italic;
+  font-family: fantasy;
+}
+
+/* list collection  */
+.list__collection{
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+.research{
+  padding: 0px 90px;
+  list-style: none;
+}
+.research li{
+  font-size: 17px;
+  line-height: 30px;
+  font-style: italic;
+}
+/* list collecting 1 */
+.Origin{
+  font-size: 20px;
+  display: block;
+  margin: 22px 0px;
+  position: relative;
+  font-family: fantasy;
+  font-weight: 500;
+}
+.Origin::after{
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background-color: rgba(54, 54, 54, 0.719);
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.3s ease-out;
+  left: 5px;
+  bottom: -3px;
+}
+.Origin:hover::after{
+  width: 65%;
+  color: #0000007c;
+}
+/* list collecting 2 */
+.Origins{
+  font-size: 20px;
+  display: block;
+  margin: 22px 0px;
+  position: relative;
+  font-family: fantasy;
+  font-weight: 500;
+}
+.Origins::after{
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background-color: rgba(54, 54, 54, 0.719);
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.3s ease-out;
+  left: 5px;
+  bottom: -3px;
+}
+.Origins:hover::after{
+  width: 25%;
+  color: #0000007c;
+}
+/* list collecting 3 */
+.Originso{
+  font-size: 20px;
+  display: block;
+  margin: 22px 0px;
+  position: relative;
+  font-family: fantasy;
+  font-weight: 500;
+}
+.Originso::after{
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background-color: rgba(54, 54, 54, 0.719);
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.3s ease-out;
+  left: 5px;
+  bottom: -3px;
+}
+.Originso:hover::after{
+  width: 60%;
+  color: #0000007c;
+}
+/* list collecting 4 */
+.Originsos{
+  font-size: 20px;
+  display: block;
+  margin: 22px 0px;
+  position: relative;
+  font-family: fantasy;
+  font-weight: 500;
+}
+.Originsos::after{
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background-color: rgba(54, 54, 54, 0.719);
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.3s ease-out;
+  left: 5px;
+  bottom: -3px;
+}
+.Originsos:hover::after{
+  width: 15%;
+}
+.research li:hover{
+  color: #00f0dc;
+  cursor: pointer;
+}
+

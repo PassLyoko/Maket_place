@@ -1,0 +1,20 @@
+.click_delivery{
+    border: none;
+    border-radius: 15px;
+    color: white;
+    background-color: #000000;
+    cursor: pointer;
+    padding: 7px 9px;
+    font-family: fantasy;
+    font-weight: 100;
+    font-size: 13px;
+}
+.click_delivery:hover{
+    background-color: #e6e6e66e !important;
+    transition: 0.25s all ease !important;
+    color: #000000;
+    -webkit-transition: 0.25s all ease !important;
+    -moz-transition: 0.25s all ease !important;
+    -ms-transition: 0.25s all ease !important;
+    -o-transition: 0.25s all ease !important;
+}

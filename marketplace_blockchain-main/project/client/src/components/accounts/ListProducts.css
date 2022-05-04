@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+.makeStyles-tableHeaderCell-3{
+    background-color: black !important;
+    font-weight: 500 !important;
+    font-family: fantasy !important;
+}
+.makeStyles-tableHeaderCell-10{
+    background-color: black !important;
+    font-weight: 500 !important;
+    font-family: fantasy !important;
+
+}
+.makeStyles-name-5{
+    color: #000000 !important;
+    font-weight: 500 !important;
+    font-family: fantasy !important;
+}
+.MuiTypography-colorTextSecondary{
+    font-size: 13px !important;
+    font-style: italic !important;
+    line-height: 25px !important;
+    font-family: cursive !important;
+    padding: 0 !important;
+}
+.MuiTypography-colorPrimary{
+    font-size: 15px !important;
+    color: #000000 !important;
+    font-family: fantasy !important;
+}
+.makeStyles-status-6 {
+    color: white !important;
+    display: inline-block !important;
+    padding: 5px 10px !important;
+    font-size: 0.75rem !important;
+    font-weight: 100 !important;
+    border-radius: 15px !important;
+    background: black !important;
+    font-family: fantasy !important;
+    -webkit-border-radius: 15px !important;
+    -moz-border-radius: 15px !important;
+    -ms-border-radius: 15px !important;
+    -o-border-radius: 15px !important;
+}
+.makeStyles-status-6:hover{
+    transition: 0.25s all ease !important;
+    color: #000000 !important;
+    background: rgba(199, 199, 199, 0.267) !important;
+    -webkit-transition: 0.25s all ease !important;
+    -moz-transition: 0.25s all ease !important;
+    -ms-transition: 0.25s all ease !important;
+    -o-transition: 0.25s all ease !important;
+}
+.makeStyles-name-5{
+    padding: 0 !important;
+}
+.MuiTableRow-root:hover{
+ background-color: rgba(198, 252, 205, 0.411) !important;
+}
+.makeStyles-name-12{
+    color: #000000 !important;
+    padding: 0 !important;
+    font-family: fantasy !important;
+    font-weight: 100 !important;
+}
+.MuiTypography-colorPrimary:hover{
+    transition: 0.25s all ease !important;
+    color: #ec0000 !important;
+}
+.makeStyles-status-13{
+    border-radius: 15px !important;
+    background-color: black !important;
+    font-family: fantasy !important;
+    font-weight: 100 !important;
+    font-size: 13px !important;
+    -webkit-border-radius: 15px !important;
+    -moz-border-radius: 15px !important;
+    -ms-border-radius: 15px !important;
+    -o-border-radius: 15px !important;
+}.makeStyles-status-13:hover{
+    transition: 0.25s all ease !important;
+    color: rgb(255, 255, 255) !important;
+    background-color: #0084ff !important;
+}
