@@ -8,7 +8,7 @@ const productRoute = require('./routes/productRoute.js');
 
 const PORT = 5000;
 
-MONGODB_URL= 'mongodb+srv://locpv:10052000@cluster0.mgi7a.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
+MONGODB_URL= 'mongodb+srv://User001:10052000@cluster0.0a1rc.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
 mongoose.connect(
     MONGODB_URL, 
     { useNewUrlParser: true }
